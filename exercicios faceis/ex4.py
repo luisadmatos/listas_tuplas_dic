@@ -1,4 +1,4 @@
 
-dias_semana = ('Segunda', 'Terca', 'Quarta', 'Quinta', 'Sexta', 'Sabado', 'Domingo')
+dias_semana = ( 'Domingo', 'Segunda', 'Terca', 'Quarta', 'Quinta', 'Sexta', 'Sabado')
 
 print(dias_semana[2])
