@@ -1,4 +1,11 @@
 
+
+def dados_pessoas():
+    for pessoa in dados:
+        print(f'\nNome: {pessoa['nome']}')
+        print(f'Idade: {pessoa['idade']}')
+        print(f'Cidade: {pessoa['cidade']}')
+
 dados = [
     {'nome': 'Julia', 'idade':20, 'cidade': 'Três Lagoas'},
     {'nome': 'Guilherme', 'idade': 20, 'cidade': 'Farroupilha'},
@@ -6,7 +13,5 @@ dados = [
 ]
 
 print('\n DADOS')
-for pessoa in dados:
-    print(f'\nNome: {pessoa['nome']}')
-    print(f'Idade: {pessoa['idade']}')
-    print(f'Cidade: {pessoa['cidade']}')
+
+dados_pessoas()

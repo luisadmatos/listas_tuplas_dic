@@ -1,12 +1,17 @@
+'''
+ Solicite nomes até que o usuário digite ”sair”. Armazene em uma lista e imprima.
+'''
 
-nomes = []
+def nomes():
 
-while True:
-    nome = input('Digite seu nome (ou sair): ')
-    if nome.lower() == 'sair':
-        break
-    else:
-        nomes.append(nome)
+    nomes = []
 
-print('Nomes digitados:')
-print(nomes)
+    while True:
+        nome = input('Digite seu nome (ou sair): ')
+        if nome.lower() == 'sair':
+            break
+        else:
+            nomes.append(nome)
+
+    return nomes
+print(nomes())

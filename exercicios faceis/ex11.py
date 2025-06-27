@@ -1,6 +1,12 @@
+'''
+Crie uma lista com 10 zeros usando laço for.
+'''
+def zeros():
+    zeros_lista = []
 
-zeros = []
+    for i in range(10):
+        zeros_lista.append(0)
+    
+    return zeros_lista
 
-for i in range(10):
-    zeros.append(0)
-print(zeros)
+print(zeros())

@@ -1,7 +1,12 @@
+'''
+Crie uma lista com 5 números e calcule a média usando laço for.
+'''
+def media():
 
-lista = [2, 4, 6, 8, 10]
+    lista = [2, 4, 6, 8, 10]
 
-for i in range(len(lista)):
     media = sum(lista) / len(lista)
 
-print(media)
+    return media
+
+print(media())

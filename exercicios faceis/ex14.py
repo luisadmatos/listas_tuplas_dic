@@ -1,5 +1,11 @@
+'''
+ Crie uma lista com 3 frutas e adicione uma quarta no in´ ıcio com insert.
+'''
 
-frutas = ['Banana', 'Maça', 'Morango']
-frutas.insert(0, 'Uva')
+def lista_frutas():
 
-print(frutas)
+    frutas = ['Banana', 'Maça', 'Morango']
+    frutas.insert(0, 'Uva')
+    return frutas
+
+print(lista_frutas())

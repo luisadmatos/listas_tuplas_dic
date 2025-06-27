@@ -1,9 +1,16 @@
+'''
+Crie uma lista de 5 elementos e substitua o segundo elemento pelo valor 99.
+'''
 
-numeros = [1, 2, 3, 4, 5]
-antigo = 2
-novo = 99
+def substituir():
 
-indice = numeros.index(2)
-numeros[indice] = novo 
+    numeros = [1, 2, 3, 4, 5]
+    novo = 99
 
-print(numeros)
+    indice = numeros.index(2)
+    numeros[indice] = novo 
+
+    return numeros
+
+print(substituir())
+

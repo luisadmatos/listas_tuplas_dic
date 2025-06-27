@@ -1,9 +1,17 @@
+'''
+ Solicite 5 números ao usuário e armazene em uma lista. Em seguida, imprima o
+ maior e o menor número.
+'''
 
-numeros = []
+def maior_menor():
 
-for i in range(5):
-    numero = int(input(f'Digite o {i+1}º numero: '))
-    numeros.append(numero)
+    numeros = []
 
-print(max(numeros))
-print(min(numeros))
+    for i in range(5):
+        numero = int(input(f'Digite o {i+1}º numero: '))
+        numeros.append(numero)
+
+    print(max(numeros))
+    print(min(numeros))
+
+maior_menor()
